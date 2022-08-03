@@ -1,4 +1,4 @@
-package com.nahidsohel.microservices;
+package com.nahidsohel.microservices.limitservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
