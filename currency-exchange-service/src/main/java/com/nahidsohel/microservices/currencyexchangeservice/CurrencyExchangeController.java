@@ -14,6 +14,8 @@ public class CurrencyExchangeController {
 
     private final CurrencyExchangeRepository currencyExchangeRepository;
 
+
+
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
     public CurrencyExchange retrieveCurrencyExchange(@PathVariable String from, @PathVariable String to){
 
@@ -31,4 +33,6 @@ public class CurrencyExchangeController {
         return currencyExchange;
 
     }
+
+
 }
