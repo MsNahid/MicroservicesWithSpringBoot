@@ -26,6 +26,7 @@ public class CurrencyExchangeController {
         if(currencyExchange == null){
             throw new RuntimeException("Unable to find currency exchange " + from + " to " + to + " .");
         }
+        currencyExchange.setEnvironment(port);
 
         return currencyExchange;
 
